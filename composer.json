@@ -1,0 +1,25 @@
+{
+  "name": "vendor/keepitmark-server",
+  "description": "Repositório de tarefas",
+  "minimum-stability": "stable",
+  "license": "proprietary",
+  "authors": [
+    {
+      "name" : "André Lunelli",
+      "email" : "to.lunelli@gmail.com"
+    }
+  ],
+  "require" : {
+    "league/route" : "^2.0",
+    "zendframework/zend-diactoros" : "1.3.10",
+    "league/plates" : "^3.3"
+  },
+  "require-dev" : {
+    "phpunit/phpunit" : "^6.0"
+  },
+  "autoload" : {
+    "classmap" : [
+      "src/"
+    ]
+  }
+}

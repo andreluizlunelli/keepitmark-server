@@ -1,0 +1,9 @@
+<phpunit bootstrap="vendor/autoload.php"
+		 colors="true"
+		 >
+	<testsuites>
+		<testsuite name="Testes Keepitmark-server">
+			<directory>test</directory>
+		</testsuite>
+	</testsuites>
+</phpunit>
