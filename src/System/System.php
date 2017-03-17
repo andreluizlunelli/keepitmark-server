@@ -14,10 +14,10 @@ class System {
 	 */
 	private $routes;
 	
-	public function start() {		
+	public function start() {
 		$this->container = ContainerHttp::getInstance();
-		$this->routes = new Route($this->container); // rotas na função mapRoutes
-
+		$this->routes = new Route($this->container);
+        $this->routes->map('GET', '/', [new \LL\Controller\SiteController, 'getIndex']);
 		$this->routes->dispatch();
 	}
 	

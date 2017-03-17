@@ -24,6 +24,7 @@ class Route {
      * @param string $methodHTTP metodo http: GET, POST ..
      * @param string $route rota '/algumacoisa'
      * @param $handler função utilizada ou controler utilizado 'MeuController::minhaAction'
+     *                                                          ou [new \LL\Controller\SiteController, 'getIndex']
      */
     public function map(string $methodHTTP, string $route, $handler)
     {

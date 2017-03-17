@@ -5,7 +5,6 @@
       <sourceFolder url="file://$MODULE_DIR$/tests" isTestSource="true" packagePrefix="LL" />
       <sourceFolder url="file://$MODULE_DIR$/src" isTestSource="false" packagePrefix="LL" />
       <sourceFolder url="file://$MODULE_DIR$/vendor" isTestSource="false" />
-      <excludeFolder url="file://$MODULE_DIR$/vendor/composer" />
       <excludeFolder url="file://$MODULE_DIR$/vendor/container-interop/container-interop" />
       <excludeFolder url="file://$MODULE_DIR$/vendor/doctrine/instantiator" />
       <excludeFolder url="file://$MODULE_DIR$/vendor/league/container" />
@@ -22,7 +21,6 @@
       <excludeFolder url="file://$MODULE_DIR$/vendor/phpunit/php-text-template" />
       <excludeFolder url="file://$MODULE_DIR$/vendor/phpunit/php-timer" />
       <excludeFolder url="file://$MODULE_DIR$/vendor/phpunit/php-token-stream" />
-      <excludeFolder url="file://$MODULE_DIR$/vendor/phpunit/phpunit" />
       <excludeFolder url="file://$MODULE_DIR$/vendor/phpunit/phpunit-mock-objects" />
       <excludeFolder url="file://$MODULE_DIR$/vendor/psr/container" />
       <excludeFolder url="file://$MODULE_DIR$/vendor/psr/http-message" />
@@ -56,18 +54,17 @@
       <library name="PHARS">
         <CLASSES>
           <root url="phar://$MODULE_DIR$/vendor/phpunit/phpunit/tests/_files/phpunit-example-extension/tools/phpunit.d/phpunit-example-extension-1.0.0.phar/" />
-          <root url="phar://$MODULE_DIR$/phpunit.phar/" />
+          <root url="phar://$MODULE_DIR$/vendor/phpunit.phar/" />
         </CLASSES>
         <SOURCES>
           <root url="phar://$MODULE_DIR$/vendor/phpunit/phpunit/tests/_files/phpunit-example-extension/tools/phpunit.d/phpunit-example-extension-1.0.0.phar/" />
-          <root url="phar://$MODULE_DIR$/phpunit.phar/" />
+          <root url="phar://$MODULE_DIR$/vendor/phpunit.phar/" />
         </SOURCES>
       </library>
     </orderEntry>
     <orderEntry type="module-library">
       <library name="PHP" type="php">
         <CLASSES>
-          <root url="file://$MODULE_DIR$/vendor/composer" />
           <root url="file://$MODULE_DIR$/vendor/container-interop/container-interop" />
           <root url="file://$MODULE_DIR$/vendor/doctrine/instantiator" />
           <root url="file://$MODULE_DIR$/vendor/league/container" />
@@ -84,7 +81,6 @@
           <root url="file://$MODULE_DIR$/vendor/phpunit/php-text-template" />
           <root url="file://$MODULE_DIR$/vendor/phpunit/php-timer" />
           <root url="file://$MODULE_DIR$/vendor/phpunit/php-token-stream" />
-          <root url="file://$MODULE_DIR$/vendor/phpunit/phpunit" />
           <root url="file://$MODULE_DIR$/vendor/phpunit/phpunit-mock-objects" />
           <root url="file://$MODULE_DIR$/vendor/psr/container" />
           <root url="file://$MODULE_DIR$/vendor/psr/http-message" />
@@ -103,7 +99,6 @@
           <root url="file://$MODULE_DIR$/vendor/zendframework/zend-diactoros" />
         </CLASSES>
         <SOURCES>
-          <root url="file://$MODULE_DIR$/vendor/composer" />
           <root url="file://$MODULE_DIR$/vendor/container-interop/container-interop" />
           <root url="file://$MODULE_DIR$/vendor/doctrine/instantiator" />
           <root url="file://$MODULE_DIR$/vendor/league/container" />
@@ -120,7 +115,6 @@
           <root url="file://$MODULE_DIR$/vendor/phpunit/php-text-template" />
           <root url="file://$MODULE_DIR$/vendor/phpunit/php-timer" />
           <root url="file://$MODULE_DIR$/vendor/phpunit/php-token-stream" />
-          <root url="file://$MODULE_DIR$/vendor/phpunit/phpunit" />
           <root url="file://$MODULE_DIR$/vendor/phpunit/phpunit-mock-objects" />
           <root url="file://$MODULE_DIR$/vendor/psr/container" />
           <root url="file://$MODULE_DIR$/vendor/psr/http-message" />

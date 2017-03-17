@@ -1,4 +1,5 @@
-<?php 
+<?php
+
 chdir(dirname(__DIR__));
 
 // Decline static file requests back to the PHP built-in webserver
@@ -8,6 +9,4 @@ if (php_sapi_name() === 'cli-server' && is_file(__DIR__ . parse_url($_SERVER['RE
 
 require 'vendor/autoload.php';
 
-use LL\System\System;
-
-(new System())->start();
+(new \LL\System\System())->start();
