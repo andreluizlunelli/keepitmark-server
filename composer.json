@@ -18,8 +18,8 @@
     "phpunit/phpunit" : "^6.0"
   },
   "autoload" : {
-    "classmap" : [
-      "src/"
-    ]
+    "psr-4" : {
+      "LL\\": "src/"
+    }
   }
 }

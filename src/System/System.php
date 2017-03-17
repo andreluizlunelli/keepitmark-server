@@ -17,6 +17,7 @@ class System {
 	public function start() {		
 		$this->container = ContainerHttp::getInstance();
 		$this->routes = new Route($this->container); // rotas na função mapRoutes
+
 		$this->routes->dispatch();
 	}
 	
