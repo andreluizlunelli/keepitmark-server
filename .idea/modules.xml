@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/_keepitmark-server.iml" filepath="$PROJECT_DIR$/.idea/_keepitmark-server.iml" />
+      <module fileurl="file://C:\Users\tolun\phpwork\keepitmark-server\.idea\_keepitmark-server.iml" filepath="C:\Users\tolun\phpwork\keepitmark-server\.idea\_keepitmark-server.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/keepitmark-server.iml" filepath="$PROJECT_DIR$/.idea/keepitmark-server.iml" />
     </modules>
   </component>

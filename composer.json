@@ -19,7 +19,11 @@
   },
    "autoload" : {
     "psr-4" : {
-      "LL\\": "src/",
+      "LL\\": "src/"
+    }
+  },
+  "autoload-dev" : {
+    "psr-4" : {
       "TestsLL\\": "tests/"
     }
   }
